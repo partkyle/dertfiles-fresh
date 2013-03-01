@@ -9,7 +9,19 @@
 # See http://freshshell.com/readme for documentation.
 
 fresh freshshell/fresh bin/fresh --bin                  # handles updating fresh
-fresh zsh-users/zsh-syntax-highlighting zsh-syntax-highlighting.zsh --file=vendor/zsh-syntax-highlighting.zsh
-fresh zsh-users/zsh-syntax-highlighting highlighters --file=vendor/highlighters/
 
-fresh twe4ked/dotfiles vim/* --file=~/.vimrc --marker='"'
+# ZSH
+fresh shell/exports.sh
+
+fresh zsh/zshrc --file
+fresh zsh/completion.zsh --file=~/.zshrc
+fresh zsh/prompt.zsh --file=~/.zshrc
+fresh zsh/title.zsh --file=~/.zshrc
+fresh zsh/keybindings.zsh --file=~/.zshrc
+
+fresh zsh-users/zsh-syntax-highlighting zsh-syntax-highlighting.zsh --file=vendor/zsh-syntax-highlighting.zsh
+fresh zsh-users/zsh-syntax-highlighting highlighters/main/main-highlighter.zsh --file=vendor/highlighters/main/main-highlighter.zsh
+fresh zsh-users/zsh-syntax-highlighting highlighters/brackets/brackets-highlighter.zsh --file=vendor/highlighters/brackets/brackets-highlighter.zsh
+fresh zsh/zsh-syntax-highlighting.zsh
+
+fresh zsh-users/zsh-history-substring-search zsh-history-substring-search.zsh
