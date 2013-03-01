@@ -1,0 +1,15 @@
+# freshshell.com
+#
+# Examples:
+#
+#   fresh twe4ked/dotfiles shell/functions.sh
+#   fresh jasoncodes/dotfiles aliases/rails.sh
+#   fresh jasoncodes/dotfiles config/tmux.conf --file
+#
+# See http://freshshell.com/readme for documentation.
+
+fresh freshshell/fresh bin/fresh --bin                  # handles updating fresh
+fresh zsh-users/zsh-syntax-highlighting zsh-syntax-highlighting.zsh --file=vendor/zsh-syntax-highlighting.zsh
+fresh zsh-users/zsh-syntax-highlighting highlighters --file=vendor/highlighters/
+
+fresh twe4ked/dotfiles vim/* --file=~/.vimrc --marker='"'
