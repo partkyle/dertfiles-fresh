@@ -24,7 +24,7 @@ setopt complete_in_word
 setopt always_to_end
 setopt no_flowcontrol
 
-WORDCHARS=''
+WORDCHARS="*?_-.[]~&;!#$%^(){}<>"
 
 # history
 HISTFILE=$HOME/.zhistory
