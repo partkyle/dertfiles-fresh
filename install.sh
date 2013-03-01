@@ -7,7 +7,7 @@ if [ -d ~/.dotfiles ]; then
     (cd ~/.dotfiles && git pull --rebase)
   fi
 else
-  git clone git://github.com/partkyle/dertfiles.git ~/.dotfiles
+  git clone git@github.com:partkyle/dertfiles.git ~/.dotfiles
 fi
 
 [ -e ~/.freshrc ] || ln -sv ~/.dotfiles/freshrc ~/.freshrc
