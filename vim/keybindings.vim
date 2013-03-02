@@ -1,17 +1,7 @@
 nmap <leader>ss :source $HOME/.vimrc<CR>
 
-" Window Navigation
-" Use ctrl+(h|j|k|j) to move through open windows.
-map <C-h> <C-w>h
-map <C-j> <C-w>j
-map <C-k> <C-w>k
-map <C-l> <C-w>l
-
 " Clear search
 nmap <C-c> :nohlsearch<CR>
-
-" Command W
-map <Leader>w :CommandW<CR>
 
 " Ack with <leader>f
 map <Leader>f :Ack!<Space>
@@ -46,3 +36,42 @@ vnoremap <silent> # :<C-U>
 " Reselect visual block after indent
 vnoremap < <gv
 vnoremap > >gv
+
+" mappings for command line
+cnoremap <C-j> <t_kd>
+cnoremap <C-k> <t_ku>
+cnoremap <C-a> <Home>
+cnoremap <C-e> <End>
+
+" window / split management
+nnoremap <C-h> gT
+nnoremap <C-l> gt
+
+nnoremap <C-j> <C-w>w
+nnoremap <C-k> <C-w>W
+
+" space mappings
+nnoremap <Space> <C-w>w
+nnoremap <S-Space> <C-w>W
+
+nnoremap vv :vsplit<CR>
+nnoremap ss :split<CR>
+nnoremap tt :tabnew<CR>
+
+" sudo write
+cnoreabbrev w!! %!sudo tee > /dev/null %
+
+" open file helpers
+map <Leader>e :e <C-R>=expand("%:p:h") . "/" <CR>
+map <Leader>te :tabe <C-R>=expand("%:p:h") . "/" <CR>
+cmap <C-P> <C-R>=expand("%:p:h") . "/" <CR>
+
+" emacsisms (so sue me)
+inoremap <C-A> <C-O>^
+cnoremap <C-A> <Home>
+inoremap <C-E> <End>
+cnoremap <C-E> <End>
+inoremap <C-F> <C-O>l
+cnoremap <C-F> <C-O>l
+inoremap <C-B> <C-O>h
+cnoremap <C-B> <C-O>h
