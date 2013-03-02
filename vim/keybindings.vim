@@ -37,6 +37,12 @@ vnoremap <silent> # :<C-U>
 vnoremap < <gv
 vnoremap > >gv
 
+" better moving in insert mode
+imap <C-j> <C-o>j
+imap <C-k> <C-o>k
+imap <C-h> <C-o>h
+imap <C-l> <C-o>l
+
 " mappings for command line
 cnoremap <C-j> <t_kd>
 cnoremap <C-k> <t_ku>
@@ -75,3 +81,9 @@ inoremap <C-F> <C-O>l
 cnoremap <C-F> <C-O>l
 inoremap <C-B> <C-O>h
 cnoremap <C-B> <C-O>h
+
+" I can't believe that :W does nothing
+cnoreabbrev W w
+cnoreabbrev Q q
+cnoreabbrev Wq wq
+cnoreabbrev WQ wq
