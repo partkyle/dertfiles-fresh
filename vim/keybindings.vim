@@ -82,6 +82,10 @@ cnoremap <C-F> <C-O>l
 inoremap <C-B> <C-O>h
 cnoremap <C-B> <C-O>h
 
+nnoremap <C-x><C-c> ZZ
+nnoremap <C-x><C-s> :w<CR>
+inoremap <C-x><C-s> <ESC>:w<CR>gi
+
 " I can't believe that :W does nothing
 cnoreabbrev W w
 cnoreabbrev Q q
