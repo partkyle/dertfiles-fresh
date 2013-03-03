@@ -10,6 +10,9 @@
 
 fresh freshshell/fresh bin/fresh --bin                  # handles updating fresh
 
+# input
+fresh config/inputrc --file
+
 # ZSH
 fresh shell/exports.sh
 fresh 'aliases/*'
