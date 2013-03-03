@@ -1,11 +1,20 @@
 [include]
 	path = .gitconfig.local
+
+[init]
+	templatedir = /Users/partkyle/.git_template
+
+[core]
+	excludesfile = .gitignore
+
 [user]
 	name = Kyle Partridge
 	email = partkyle@gmail.com
+
 [diff]
 [color]
 	ui = auto
+
 [alias]
 	st = status
 	ss = status --short
@@ -43,7 +52,6 @@
 [merge]
 	tool = vimdiff
 	defaultToUpstream = true
+
 [push]
 	default = matching
-[core]
-	excludesfile = /Users/partkyle/.gitignore
