@@ -23,3 +23,6 @@ Bundle 'mileszs/ack.vim'
 " Colours
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'nanotech/jellybeans.vim'
+
+" Syntax
+Bundle 'jnwhiteh/vim-golang'
