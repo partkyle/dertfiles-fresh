@@ -12,6 +12,7 @@ fresh freshshell/fresh bin/fresh --bin                  # handles updating fresh
 
 # ZSH
 fresh shell/exports.sh
+fresh 'aliases/*'
 
 fresh zsh/zshrc --file
 fresh zsh/completion.zsh --file=~/.zshrc
