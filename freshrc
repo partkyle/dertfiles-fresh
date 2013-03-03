@@ -24,6 +24,8 @@ fresh zsh/prompt.zsh --file=~/.zshrc
 fresh zsh/title.zsh --file=~/.zshrc
 fresh zsh/keybindings.zsh --file=~/.zshrc
 
+fresh rupa/z z.sh
+
 fresh zsh-users/zsh-syntax-highlighting zsh-syntax-highlighting.zsh --file=vendor/zsh-syntax-highlighting.zsh
 fresh zsh-users/zsh-syntax-highlighting highlighters/main/main-highlighter.zsh --file=vendor/highlighters/main/main-highlighter.zsh
 fresh zsh-users/zsh-syntax-highlighting highlighters/brackets/brackets-highlighter.zsh --file=vendor/highlighters/brackets/brackets-highlighter.zsh
