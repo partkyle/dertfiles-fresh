@@ -27,6 +27,9 @@ fresh zsh/zsh-syntax-highlighting.zsh
 
 fresh zsh-users/zsh-history-substring-search zsh-history-substring-search.zsh
 
+# git
+fresh git/gitconfig --file
+
 # Vim
 fresh vim/leader.vim --file=~/.vimrc
 fresh vim/vundle.vim --file=~/.vimrc
