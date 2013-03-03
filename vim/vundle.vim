@@ -16,6 +16,7 @@ Bundle 'Lokaltog/vim-powerline'
 
 " Editing
 Bundle 'tpope/vim-surround'
+Bundle 'ervandew/supertab'
 
 " Navigation
 Bundle 'mileszs/ack.vim'
