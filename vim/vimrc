@@ -108,3 +108,12 @@ endif
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
 endif
+
+" ================ Text Wrapping ===================
+
+function! s:setupWrapping()
+  set wrap
+  set wrapmargin=2
+  set textwidth=72
+endfunction
+autocmd BufRead,BufNewFile *.txt call s:setupWrapping()
