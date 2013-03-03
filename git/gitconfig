@@ -1,3 +1,5 @@
+[include]
+	path = .gitconfig.local
 [user]
 	name = Kyle Partridge
 	email = partkyle@gmail.com
