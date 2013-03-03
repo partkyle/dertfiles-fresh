@@ -15,6 +15,7 @@ fresh shell/exports.sh
 fresh 'aliases/*'
 
 fresh zsh/zshrc --file
+fresh zsh/config.zsh --file=~/.zshrc
 fresh zsh/completion.zsh --file=~/.zshrc
 fresh zsh/prompt.zsh --file=~/.zshrc
 fresh zsh/title.zsh --file=~/.zshrc
