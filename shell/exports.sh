@@ -10,3 +10,6 @@ export PAGER='less'
 
 # PYTHON!!!~
 export VIRTUAL_ENV_DISABLE_PROMPT=true
+
+# golang
+export GOPATH=~/go
