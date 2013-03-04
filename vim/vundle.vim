@@ -2,11 +2,13 @@ filetype off
 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
+
+" update vundle
 Bundle 'gmarik/vundle'
 
 " Misc.
-Bundle 'scrooloose/syntastic'
 Bundle 'tpope/vim-fugitive'
+Bundle 'Lokaltog/vim-easymotion'
 
 " tmux
 Bundle 'benmills/vimux'
@@ -21,9 +23,13 @@ Bundle 'ervandew/supertab'
 " Navigation
 Bundle 'mileszs/ack.vim'
 
+" FuzzyFinder
+Bundle 'L9'
+Bundle 'FuzzyFinder'
+
 " Colours
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'nanotech/jellybeans.vim'
 
-" Syntax
+" golang
 Bundle 'jnwhiteh/vim-golang'

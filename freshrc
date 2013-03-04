@@ -48,5 +48,8 @@ fresh 'vim/pluginconf/*' --file=~/.vimrc --marker='"'
 fresh vim/gvimrc --file
 fresh vim/vimrc --file
 
+fresh nsf/gocode vim/autoload --file=~/.vim/autoload/
+fresh nsf/gocode vim/ftplugin --file=~/.vim/ftplugin/
+
 # bin
 fresh 'bin/*' --bin
