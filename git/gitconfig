@@ -1,11 +1,11 @@
 [include]
-	path = .gitconfig.local
+	path = ~/.gitconfig.local
 
 [init]
-	templatedir = /Users/partkyle/.git_template
+	templatedir = ~/.git_template
 
 [core]
-	excludesfile = .gitignore
+	excludesfile = ~/.gitignore
 
 [user]
 	name = Kyle Partridge

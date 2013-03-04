@@ -40,6 +40,7 @@ fresh zsh-users/zsh-history-substring-search zsh-history-substring-search.zsh
 # git
 fresh git/gitconfig --file
 fresh git/template --file=~/.git_template/
+fresh git/gitignore --file
 
 # Vim
 fresh vim/leader.vim --file=~/.vimrc
