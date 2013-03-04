@@ -53,3 +53,6 @@ fresh nsf/gocode vim/ftplugin --file=~/.vim/ftplugin/
 
 # bin
 fresh 'bin/*' --bin
+
+# slate
+fresh slate/slate --file
