@@ -94,6 +94,8 @@
 (global-set-key (kbd "C-x g") 'grep)
 (global-set-key (kbd "C-x C-g") 'grep)
 (global-set-key (kbd "C-<f5>") 'linum-mode)
+(global-set-key (kbd "C-x C-o") 'other-window)
+(global-set-key (kbd "C-S-k") 'kill-whole-line)
 
 ;; ido settings (fuzzy finder)
 (when (require 'ido)
