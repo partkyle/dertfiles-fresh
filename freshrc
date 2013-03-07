@@ -42,7 +42,7 @@ fresh git/gitconfig --file
 fresh git/template --file=~/.git_template/
 fresh git/gitignore --file
 
-# Vim
+# vim
 fresh vim/leader.vim --file=~/.vimrc
 fresh vim/vundle.vim --file=~/.vimrc
 fresh vim/keybindings.vim --file=~/.vimrc
@@ -53,6 +53,9 @@ fresh vim/vimrc --file
 
 fresh nsf/gocode vim/autoload --file=~/.vim/autoload/
 fresh nsf/gocode vim/ftplugin --file=~/.vim/ftplugin/
+
+# emacs  
+fresh emacs/init.el --file=~/.emacs.d/init.el
 
 # bin
 fresh 'bin/*' --bin
