@@ -2,8 +2,8 @@ export DOTFILES=~/.dotfiles
 export ARCHFLAGS='-arch x86_64'             # Archflags
 export GREP_OPTIONS='--color=auto'          # Double rainbow!
 
-export EDITOR='vi'
-export VISUAL='vi'
+export EDITOR='vim'
+export VISUAL='vim'
 export PAGER='less'
 
 # PYTHON!!!~

@@ -47,6 +47,7 @@ fresh vim/leader.vim --file=~/.vimrc
 fresh vim/vundle.vim --file=~/.vimrc
 fresh vim/keybindings.vim --file=~/.vimrc
 fresh 'vim/pluginconf/*' --file=~/.vimrc --marker='"'
+fresh vim/ftplugin --file=~/.vim/ftplugin/
 fresh vim/gvimrc --file
 fresh vim/vimrc --file
 
