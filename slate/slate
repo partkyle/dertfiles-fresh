@@ -18,8 +18,8 @@ alias screen75X     screenSizeX*.75
 alias screen75Y     screenSizeY*.75
 alias centerResize  move screenOriginX+(screenSizeX-${screen75X})/2;screenOriginY+(screenSizeY-${screen75Y})/2 ${screen75X};${screen75Y}
 
-bind g:cmd grid padding:5 0:6,2 1:8,3
-bind e:cmd hint ASDFGHJKLQWERTYUIOPCVBN # use whatever keys you want
+# bind g:cmd grid padding:5 0:6,2 1:8,3
+# bind e:cmd hint ASDFGHJKLQWERTYUIOPCVBN # use whatever keys you want
 
 # numpad based commands (I might not like these)
 bind pad1:ctrl ${bottomleft}
@@ -80,3 +80,5 @@ bind g:${hyper} focus 'GitHub'
 bind m:${hyper} focus ${mail}
 bind t:${hyper} focus 'iTerm'
 bind o:${hyper} focus ${finder}
+
+bind /:${hyper} hint ASDFGHJKL
