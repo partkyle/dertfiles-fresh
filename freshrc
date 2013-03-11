@@ -62,3 +62,6 @@ fresh 'bin/*' --bin
 
 # slate
 fresh slate/slate --file
+
+# ruby
+fresh ruby/gemrc --file
