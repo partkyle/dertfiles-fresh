@@ -48,6 +48,9 @@
 	last-tag = "!git log $(git tag | tail -1) ^$(git tag | tail -2 | head -1) --oneline"
 	release = "!git last-tag | grep 'Merge pull request' | grep -i NEWS | sed 's|.*sendgrid/.*\\(NEWS-\\d*\\)|\\1|'"
 
+	# git gui
+	k = "!gitx || gitk"
+
 [format]
 	pretty=format:%C(yellow)%h%Creset -%C(bold blue)%d%Creset %s %Cgreen(%ar) %C(magenta)<%an>%Creset
 
