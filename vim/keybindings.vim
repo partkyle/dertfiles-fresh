@@ -18,7 +18,7 @@ nnoremap Y y$
 nmap K <Esc>
 
 " I don't like <c-r>
-map U :redo<CR>
+nmap U :redo<CR>
 
 " Search for selected text, forwards or backwards.
 " http://vim.wikia.com/wiki/Search_for_visually_selected_text
