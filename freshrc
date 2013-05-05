@@ -26,6 +26,7 @@ fresh zsh/completion.zsh --file=~/.zshrc
 fresh zsh/prompt.zsh --file=~/.zshrc
 fresh zsh/title.zsh --file=~/.zshrc
 fresh zsh/keybindings.zsh --file=~/.zshrc
+fresh zsh/functions.zsh --file=~/.zshrc
 fresh zsh/local.zsh --file=~/.zshrc
 
 fresh rupa/z z.sh
