@@ -43,7 +43,7 @@ Thumbs.db
 
 # CTags files #
 ###############
-tags
+/tags
 .tags
 .gemtags
 
