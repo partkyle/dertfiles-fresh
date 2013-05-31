@@ -9,12 +9,25 @@
 
 [user]
 	name = Kyle Partridge
-email = partkyle@gmail.com
+	email = partkyle@gmail.com
 
 [diff]
 	algorithm = patience
+
 [color]
 	ui = auto
+
+[merge]
+	tool = vimdiff
+	defaultToUpstream = true
+
+[push]
+	default = matching
+[branch]
+	autosetuprebase = always
+
+[format]
+	pretty=format:%C(yellow)%h%Creset -%C(bold blue)%d%Creset %s %Cgreen(%ar) %C(magenta)<%an>%Creset
 
 [alias]
 	st = status
@@ -53,13 +66,3 @@ email = partkyle@gmail.com
 
 	# git gui
 	k = "!gitx || gitk"
-
-[format]
-	pretty=format:%C(yellow)%h%Creset -%C(bold blue)%d%Creset %s %Cgreen(%ar) %C(magenta)<%an>%Creset
-
-[merge]
-	tool = vimdiff
-	defaultToUpstream = true
-
-[push]
-	default = matching
