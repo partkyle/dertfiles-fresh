@@ -66,10 +66,10 @@ bind up:${hyper}       focus up
 bind down:${hyper}     focus down
 
 # vi focus bindings
-bind l:${hyper}        focus right
-bind h:${hyper}        focus left
-bind k:${hyper}        focus up
-bind j:${hyper}        focus down
+# bind l:${hyper}        focus right
+# bind h:${hyper}        focus left
+# bind k:${hyper}        focus up
+# bind j:${hyper}        focus down
 
 # App bindings
 bind w:${hyper} focus ${browser}
