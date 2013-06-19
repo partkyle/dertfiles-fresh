@@ -34,3 +34,5 @@ Bundle 'chriskempson/vim-tomorrow-theme'
 
 " golang
 Bundle 'jnwhiteh/vim-golang'
+
+Bundle 'vim-scripts/YankRing.vim'
