@@ -22,6 +22,7 @@ Bundle 'ervandew/supertab'
 
 " Navigation
 Bundle 'mileszs/ack.vim'
+Bundle 'epmatsw/ag.vim'
 
 " FuzzyFinder
 Bundle 'L9'
