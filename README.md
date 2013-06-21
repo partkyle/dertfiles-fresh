@@ -1,8 +1,13 @@
 dertfiles
 =========
 
-My dotfiles in fresh
+My dotfiles in fresh. Works best with zsh 5.0+
 
+
+required packages
+=================
+
+- brew install coreutils
 
 Installation
 ============
