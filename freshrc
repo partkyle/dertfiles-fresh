@@ -20,6 +20,7 @@ fresh zsh-users/zsh-completions src --file=completion/
 fresh shell/exports.sh
 fresh 'aliases/*'
 
+fresh zsh/zprofile --file
 fresh zsh/zshrc --file
 fresh zsh/config.zsh --file=~/.zshrc
 fresh zsh/completion.zsh --file=~/.zshrc
