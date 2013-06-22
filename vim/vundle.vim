@@ -32,6 +32,9 @@ Bundle 'FuzzyFinder'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'nanotech/jellybeans.vim'
 Bundle 'chriskempson/vim-tomorrow-theme'
+Bundle 'partkyle/vim-colors'
+Bundle 'Lokaltog/vim-distinguished'
+Bundle 'tpope/vim-vividchalk'
 
 " golang
 Bundle 'jnwhiteh/vim-golang'

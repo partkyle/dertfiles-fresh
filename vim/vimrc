@@ -19,7 +19,7 @@ syntax on
 " let g:solarized_diffmode="high"
 " set bg=light
 " colorscheme solarized
-colorscheme jellybeans
+colorscheme grb256
 
 "always show status line
 set laststatus=2
