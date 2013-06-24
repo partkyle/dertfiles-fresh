@@ -22,7 +22,8 @@
 	defaultToUpstream = true
 
 [push]
-	default = matching
+	default = current
+
 [branch]
 	autosetuprebase = always
 
