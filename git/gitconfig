@@ -33,6 +33,7 @@
 [alias]
 	st = status
 	ss = status --short
+	c  = commit -v
 	ci = commit
 	co = checkout
 	d  = diff
