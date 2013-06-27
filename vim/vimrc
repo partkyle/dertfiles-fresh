@@ -24,6 +24,11 @@ colorscheme jellybeans
 "always show status line
 set laststatus=2
 
+" ================ Split Management =================
+
+set splitbelow
+set splitright
+
 " ================ Search Settings  =================
 
 set incsearch        "Find the next match as we type the search
