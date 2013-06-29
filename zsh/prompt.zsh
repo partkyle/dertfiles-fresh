@@ -26,7 +26,7 @@ zstyle ':vcs_info:*' formats "{%b%c%u} "
 zstyle ':vcs_info:(sv[nk]|bzr):*' branchformat "%b|%F{cyan}%r%f"
 
 PROMPT='%~ %# '
-RPROMPT='$(_virtualenv_root) ${vcs_info_msg_0_}[%*] <$(pk_hostname)>'
+RPROMPT='$(_virtualenv_root) ${vcs_info_msg_0_}[%*] @$(pk_hostname)'
 
 PROMPT2=' > '
 RPROMPT2='[%_]'
