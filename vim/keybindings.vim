@@ -1,3 +1,4 @@
+nmap <leader>se :edit $HOME/.vimrc<CR>
 nmap <leader>ss :source $HOME/.vimrc<CR>
 
 " Clear search
