@@ -49,19 +49,40 @@ fresh git/template --file=~/.git_template/
 fresh git/gitignore --file
 
 # vim
-fresh vim/leader.vim --file=~/.vimrc
-fresh vim/vundle.vim --file=~/.vimrc
-fresh vim/keybindings.vim --file=~/.vimrc
-fresh 'vim/pluginconf/*' --file=~/.vimrc --marker='"'
+
+fresh-options --file=~/.vimrc --marker='"'
+  fresh vim/pathogen.vim
+  fresh vim/leader.vim
+  fresh vim/keybindings.vim
+  fresh 'vim/pluginconf/*'
+fresh-options
+
 fresh vim/gvimrc --file
 fresh vim/vimrc --file
 
 fresh vim/ftplugin --file=~/.vim/ftplugin/
 
-fresh nsf/gocode vim/autoload --file=~/.vim/autoload/
-fresh nsf/gocode vim/ftplugin --file=~/.vim/ftplugin/
+# vim bundles
 
-# emacs  
+fresh tpope/vim-pathogen autoload/pathogen.vim --file=~/.vim/autoload/pathogen.vim
+
+VIM_PLUGINS=(altercation/vim-colors-solarized
+             benmills/vimux
+             chriskempson/vim-tomorrow-theme
+             epmatsw/ag.vim
+             ervandew/supertab
+             Lokaltog/vim-{distinguished,powerline}
+             mileszs/ack.vim
+             nanotech/jellybeans.vim
+             nsf/gocode
+             partkyle/vim-colors
+             tpope/vim-{fugitive,surround,vividchalk})
+
+for REPO in ${VIM_PLUGINS[*]}; do
+  fresh $REPO . --file=~/.vim/bundle/$(basename $REPO)/
+done
+
+# emacs
 fresh emacs/init.el --file=~/.emacs.d/init.el
 
 # bin

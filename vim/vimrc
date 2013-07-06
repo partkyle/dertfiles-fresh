@@ -25,6 +25,9 @@ colorscheme jellybeans
 "always show status line
 set laststatus=2
 
+"never show the mode
+set noshowmode
+
 " ================ Split Management =================
 
 set splitbelow

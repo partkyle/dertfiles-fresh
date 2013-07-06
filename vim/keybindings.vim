@@ -15,6 +15,9 @@ vmap <silent> <leader>d "_d
 " Yank from the cursor to the end of the line, to be consistent with C and D
 nnoremap Y y$
 
+" I can find my own help
+nmap <F1> <ESC>
+
 " I never intentionally lookup keywords (with `man`)
 nmap K <Esc>
 
