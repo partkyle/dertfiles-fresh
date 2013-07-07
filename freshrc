@@ -75,6 +75,7 @@ VIM_PLUGINS=(altercation/vim-colors-solarized
              nanotech/jellybeans.vim
              nsf/gocode
              partkyle/vim-colors
+             Shougo/{unite.vim,vimproc.vim}
              tpope/vim-{fugitive,pathogen,surround,vividchalk})
 
 for REPO in ${VIM_PLUGINS[*]}; do
