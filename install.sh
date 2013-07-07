@@ -18,9 +18,3 @@ if [ -e ~/.fresh/build/shell.sh ]; then
 else
   bash -c "`curl -sL get.freshshell.com`"
 fi
-
-if ! [ -d ~/.vim/bundle/vundle ]; then
-  git clone git://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-fi
-
-vim +BundleClean +BundleInstall +qall
