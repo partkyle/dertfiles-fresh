@@ -67,14 +67,7 @@ cnoreabbrev w!! %!sudo tee > /dev/null %
 
 " open file helpers
 map <Leader>e :e <C-R>=expand("%:p:h") . "/" <CR>
-map <Leader>te :tabe <C-R>=expand("%:p:h") . "/" <CR>
 cmap <C-P> <C-R>=expand("%:p:h") . "/" <CR>
-
-" fuzzy finder
-map <C-x><C-f> :FufFile<CR>
-map <C-x><C-b> :FufBuffer<CR>
-map <C-p> :FufCoverageFile<CR>
-map <C-F5> :FufRenewCache<CR>
 
 " fugitive
 map <leader>gs :Gstatus<CR><C-w>J
