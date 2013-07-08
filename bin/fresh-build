@@ -13,4 +13,4 @@ fi
 # install ycm
 cd ~/.vim/bundle/YouCompleteMe && chmod +x install.sh && ./install.sh
 # hack for ycm submodules
-cd ~/.bim/bundle/YouCompleteMe && git clone https://github.com/davidhalter/jedi.git python/ycm/completers/python/jedi
+cd ~/.vim/bundle/YouCompleteMe && git clone https://github.com/davidhalter/jedi.git python/ycm/completers/python/jedi
