@@ -1,7 +1,16 @@
+#!/bin/sh
+
 fresh update
 platform=`uname`
+
+# install vimproc
 if [[ "$platform" == "Darwin" ]]; then
   cd ~/.vim/bundle/vimproc.vim && make -f make_mac.mak
 else
   cd ~/.vim/bundle/vimproc.vim && make -f make_unix.mak
 fi
+
+# install ycm
+cd ~/.vim/bundle/YouCompleteMe && chmod +x install.sh && ./install.sh
+# hack for ycm submodules
+cd ~/.vim/bundle/YouCompleteMe && git clone https://github.com/davidhalter/jedi.git python/ycm/completers/python/jedi
