@@ -66,7 +66,7 @@ fresh vim/ftplugin --file=~/.vim/ftplugin/
 
 VIM_PLUGINS=(altercation/vim-colors-solarized
              benmills/vimux
-             bling/vim-{airline,bufferline}
+             bling/vim-airline
              chriskempson/vim-tomorrow-theme
              epmatsw/ag.vim
              ervandew/supertab
