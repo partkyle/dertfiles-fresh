@@ -1,2 +1,7 @@
 fresh update
-cd ~/.vim/bundle/vimproc.vim && make -f make_mac.mak
+platform=`uname`
+if [[ "$platform" == "Darwin" ]]; then
+  cd ~/.vim/bundle/vimproc.vim && make -f make_mac.mak
+else
+  cd ~/.vim/bundle/vimproc.vim && make -f make_unix.mak
+fi
